@@ -74,6 +74,11 @@ You also should install [SonataAdminBundle](https://github.com/sonata-project/So
 shtumi_useful:
     resource: '@ShtumiUsefulBundle/Resources/config/routing.xml'
 ```
+### Publish assets
+
+```sh
+$ php app/console assets:install --symlink web
+```
 
 ### Update your configuration
 
